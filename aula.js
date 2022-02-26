@@ -1,4 +1,30 @@
+const nomes = ["Ana Maria", "Antonio", "Rodrigo", "Alex", "Cristina"]
 
+// () => {} //arrow function
+const apenasA = nones.filter((n) => {
+    return n.startWith("A")
+});
+console.log(apenasA)
+
+// const numeros = [1, 2]
+// numeros[0] = 2
+// console.log(numeros)
+// numeros = [1, 2]
+
+
+
+
+// v1 = []
+// console.log(v1.length)
+
+// v1[0] = 1.3
+// v1[10] = 2
+// v1[2] = true
+
+// console.log(v1.length)
+// for (let i = 0; i< v1.length; i++){
+//     console.log(v1[i])
+// }
 
 //==
 //===
