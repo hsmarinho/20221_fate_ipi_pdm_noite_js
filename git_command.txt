@@ -1,0 +1,13 @@
+https://stackedit.io/app#
+
+
+git config --local
+git config --local user.name "Henrique Marinho"
+git config --local user.email "henrmarinho@gmail.com"
+git add
+git status -s
+git branch
+git remote add github https://github.com/hsmarinho/20221_fate_ipi_pdm_noite_js.git
+git remote -v
+git remote remove github
+git push -u github main \\ -u define o repositório remoto como padrão
