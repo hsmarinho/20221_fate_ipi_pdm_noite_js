@@ -1,8 +1,8 @@
 
 
-const valores = [1,2,3,4]
-const soma = valores.reduce((ac, v) => ac + v)
-console.log(soma)
+// const valores = [1,2,3,4]
+// const soma = valores.reduce((ac, v) => ac + v) // ac = acumulado // v = proximo valor
+// console.log(soma)
 
 // const nomes = ["Ana Maria", "Antonio", "Rodrigo", "Alex", "Cristina"]
 // const todosComecamComA = nomes.every(nome => nome.startsWith("A"))
