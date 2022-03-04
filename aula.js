@@ -1,10 +1,24 @@
-const nomes = ["Ana Maria", "Antonio", "Rodrigo", "Alex", "Cristina"]
 
-// () => {} //arrow function
-const apenasA = nones.filter((n) => {
-    return n.startWith("A")
-});
-console.log(apenasA)
+
+const valores = [1,2,3,4]
+const soma = valores.reduce((ac, v) => ac + v)
+console.log(soma)
+
+// const nomes = ["Ana Maria", "Antonio", "Rodrigo", "Alex", "Cristina"]
+// const todosComecamComA = nomes.every(nome => nome.startsWith("A"))
+// console.log(todosComecamComA)
+
+// const nomes = ["Ana Maria", "Antonio", "Rodrigo", "Alex", "Cristina"]
+// //const res = nome.map ((nome) => nome.charAt(0))
+// const res = nomes.map ((nome) => nome.length)
+// console.log(res)
+
+
+// // () => {} //arrow function
+// const apenasA = nones.filter((n) => {
+//     return n.startWith("A")
+// });
+// console.log(apenasA)
 
 // const numeros = [1, 2]
 // numeros[0] = 2
