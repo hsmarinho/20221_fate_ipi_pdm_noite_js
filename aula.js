@@ -1,3 +1,105 @@
+// JSON
+/////////////////////////////////////////////////////////////////////////////
+
+// let p = {
+//     nome: "Maria",
+//     idade: 22,
+//     endereco: {
+//         logradouro: "Rua B",
+//         numero: 44,
+//         bairro: "Vila K"
+//     }
+
+// }
+
+// console.log(p['endereco'].logradouro)
+// console.log(p.endereco['logradouro'])
+// console.log(p['endereco']['logradouro'])
+// console.log(p.endereco.logradouro)
+
+
+///////////////////////////////////////////
+// let pessoa = {
+//     nome: "João",
+//     idade: 17
+// }
+
+// console.log(pessoa.nome)
+// console.log(pessoa['idade'])
+
+/////////////////////////////////////////////////////////////////////////////////
+// function map (v, f){
+//     let aux = []
+//     for(let i = 0; i < v.length; i++ ){        
+//             aux.push(f(v[i]))
+//     }
+//     return aux
+// }
+
+// //["a", "d"]
+// console.log(map (["abc", "def"], (e) => e.charAt(0)))
+// console.log(map (["abc", "def"], (e) => e.length))
+
+// ////Imprementar filter
+// function filter(v, f){
+//     let aux=[]
+//     for (let i =0 ; i < v.length; i++){
+//         if (f(v[i])){
+//             aux.push(v[i])
+//         }
+//     }
+//     return aux
+// }
+
+// ////tem que exibir [2]
+// console.log(filter ([1,2], (n) => n % 2 == 0))
+////////////////////////////////////////////////////////////////////////////////
+
+//higher-oder function
+
+// let umaFuncao = function (){
+//     console.log ("Fui Armazenada em uma variavel")
+// }
+// umaFuncao()
+
+// const triplo = n => 3 *  n
+// console.log (triplo(5))
+
+// const dobro = n => 2 * n
+// const dobro = (n) => 2 * n
+// const dobro = (n) => {
+//     return 2 * n
+// }
+
+// const hello = () => console.log("Hellor")
+// hello()
+
+
+// const dobro = function (n){
+//     return 2 * n
+// }
+
+// consle.log(dobro(5))
+
+
+// function soma (a, b){
+//     return a + b
+// }
+
+// const res = soma (2,3)
+// console.log (res)
+
+
+// function hello(){
+//     console.log("hello")
+// }
+// hello()
+
+// function hello(nome){
+//     console.log("Hello, " + nome)
+// }
+// hello("Jose")
+
 
 
 // const valores = [1,2,3,4]
